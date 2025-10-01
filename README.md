@@ -1,5 +1,7 @@
 # Brave Search MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@brave/brave-search-mcp-server)](https://smithery.ai/server/@brave/brave-search-mcp-server)
+
 An MCP server implementation that integrates the Brave Search API, providing comprehensive search capabilities including web search, local business search, image search, video search, news search, and AI-powered summarization. This project supports both STDIO and HTTP transports, with STDIO as the default mode.
 
 ## Migration
@@ -134,6 +136,14 @@ Options:
 ```
 
 ## Installation
+
+### Installing via Smithery
+
+To install brave-search-mcp-server automatically via [Smithery](https://smithery.ai/server/@brave/brave-search-mcp-server):
+
+```bash
+npx -y @smithery/cli install @brave/brave-search-mcp-server
+```
 
 ### Usage with Claude Desktop
 
